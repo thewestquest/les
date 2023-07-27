@@ -1,0 +1,128 @@
+.center {
+    max-width: 1102px;
+    margin: 0 auto;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #F9F9F9;
+    padding-bottom: 100px;
+}
+header .head .logo {
+    font-family: Revalia;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #34547A;
+
+}
+header .menu a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin-right: 35px;
+    &:hover {
+        font-weight: 400; 
+        color: #34547A;
+    }
+    &:last-child {
+        margin-right: 0  ;
+    }
+}
+
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+header .body {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.body .info {
+    width: 500px;
+    margin-left: 100px;
+    .info__title {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 79px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .info_desc {
+        margin-top: 20px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #727272;
+    }
+    .info__button {
+        margin-top: 40px;
+        background: #34547A;
+        width: 225px;
+    }
+    .info__button a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: #fff;
+        padding: 20px 40px;
+        display: block;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+.content {
+    padding: 80px 0;
+}
+.about {
+   
+    width: 540px;
+}
+.about__title {
+    margin-bottom: 40px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.about__desc {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #727272;
+
+}
